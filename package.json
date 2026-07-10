@@ -1,0 +1,17 @@
+{
+  "name": "anima-pipeline-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-end demo: anima-core generates a trace, anima-trace verifies it byte-for-byte, anima-eval audits the rendered text — runnable in under 30 seconds, no LLM calls.",
+  "main": "demo.js",
+  "scripts": {
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "@af199/anima-core": "^0.1.0",
+    "@af199/anima-eval": "^0.2.0",
+    "@af199/anima-trace": "^1.0.1"
+  },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
