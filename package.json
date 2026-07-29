@@ -8,9 +8,9 @@
     "demo": "node demo.js"
   },
   "dependencies": {
-    "@af199/anima-core": "^0.1.0",
-    "@af199/anima-eval": "^0.2.0",
-    "@af199/anima-trace": "^1.0.1"
+    "@af199/anima-core": "^0.5.0",
+    "@af199/anima-eval": "^0.30.0",
+    "@af199/anima-trace": "^1.0.3"
   },
   "engines": { "node": ">=16" },
   "license": "MIT"
